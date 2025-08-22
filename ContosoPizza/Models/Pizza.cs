@@ -15,4 +15,7 @@ public class Pizza
     public decimal Price { get; set; }
 }
 
-public enum PizzaSize { Small, Medium, Large }
+/// <summary>
+/// Specifies the available sizes for a pizza.
+/// </summary>
+public enum PizzaSize { Small, Medium, Large, ExtraLarge }
